@@ -113,22 +113,20 @@ export default function Home() {
 
                 <div className="mb-8">
                   <h5 className="text-2xl text-orange-500 mb-2">
-                    🛠 As a founder:
+                    🛠 As Founder & CTO:
                   </h5>
 
                   <p className="flex">
                     <Link className="mr-2" href="https://nextory.com/">
                       <Image
-                        className="rounded-lg mx-auto bg-white mt-2 lg:mt-0"
+                        className="rounded-lg"
                         src="./youboox.jpg"
                         alt=""
                         width="100"
                         height="100"
                       ></Image>
                     </Link>
-                    <span className="">
-                      CTO & Founder - 3M€ raised, Acquired by Nextory{" "}
-                    </span>
+                    <span className=""> 3M€ raised, Acquired by Nextory </span>
                   </p>
                   <p className="flex mt-2">
                     <Link className="mr-2" href="https://corporico.fr/">
@@ -140,7 +138,7 @@ export default function Home() {
                         height="100"
                       ></Image>
                     </Link>
-                    <span className="pt-0">CTO & Founder - 1M€ ARR </span>
+                    <span className="pt-0">1M€ ARR </span>
                   </p>
                 </div>
 
