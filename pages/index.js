@@ -107,12 +107,12 @@ export default function Home() {
             </div>
             <div className="flex justify-center lg:justify-start text-6x mt-8">
               <div className="lg:w-full w-9/12 text-white">
-                <p className="text-2xl font-extrabold bg-clip-text mb-4">
+                <p className="text-2xl font-extrabold bg-clip-text mb-8">
                   I love to turn ideas into code, on public blockchains.
                 </p>
 
                 <div className="mb-8">
-                  <h5 className="text-2xl text-orange-500 mb-2">
+                  <h5 className="text-2xl text-orange-500 mb-4">
                     🛠 As Founder & CTO:
                   </h5>
 
@@ -126,7 +126,7 @@ export default function Home() {
                         height="100"
                       ></Image>
                     </Link>
-                    <span className=""> 3M€ raised, Acquired by Nextory </span>
+                    <span className=""> 3M€ raised, acquired by Nextory </span>
                   </p>
                   <p className="flex mt-2">
                     <Link className="mr-2" href="https://corporico.fr/">
@@ -143,7 +143,7 @@ export default function Home() {
                 </div>
 
                 <div className="mb-8">
-                  <h5 className="text-2xl text-orange-500">
+                  <h5 className="text-2xl text-orange-500 mb-2">
                     🧙‍♂️ As a Web3 Tech Advisor:
                   </h5>
                   <p>
@@ -163,7 +163,7 @@ export default function Home() {
                 </div>
 
                 <div className="mb-8">
-                  <h5 className="text-2xl text-orange-500">
+                  <h5 className="text-2xl text-orange-500 mb-2">
                     👨‍💻 Side projects:
                   </h5>
                   <p>
