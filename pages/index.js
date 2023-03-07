@@ -46,7 +46,7 @@ export default function Home() {
                   <div className="text-base font-normal">
                     <p className="mb-1">Web3 fullstack dev</p>
                     <p className="mb-1">Technical advisor</p>
-                    <p className="mb-1">Token deisgn & tokenomics</p>
+                    <p className="mb-1">Token design & tokenomics</p>
                   </div>
 
                   <div className="flex justify-center mt-8">
