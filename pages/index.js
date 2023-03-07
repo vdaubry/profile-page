@@ -32,12 +32,12 @@ export default function Home() {
                 />
 
                 <div className="p-5 text-black">
-                  <Link href="vdaubry.eth">
+                  <Link href="https://vdaubry.eth.limo">
                     <h5 className="text-lg font-bold tracking-tight">
                       vdaubry.eth
                     </h5>
                   </Link>
-                  <Link href="vdaubry.eth">
+                  <Link href="https://lenster.xyz/u/vincentdaubry">
                     <h5 className="text-lg font-bold tracking-tight">
                       vincentdaubry.lens
                     </h5>
@@ -120,7 +120,7 @@ export default function Home() {
                         height="100"
                       ></Image>
                     </Link>
-                    <span className="lg:pt-2">
+                    <span className="">
                       CTO & Founder - 3M€ raised, Acquired by Nextory{" "}
                     </span>
                   </p>
