@@ -17,7 +17,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <div className="bg-indigo-500 h-max lg:h-screen">
+      <div className="bg-gradient-to-r from-blue-500 to-indigo-500 h-max lg:h-screen">
         <div className="pt-16 text-center">
           <h1 className="text-5xl md:text-7xl text-orange-500 dark:text-white font-extrabold mb-8">
             Gm fren
@@ -105,32 +105,84 @@ export default function Home() {
               </div>
             </div>
             <div class="flex justify-center lg:justify-start text-6x mt-8">
-              <div className="max-w-2XL text-white">
+              <div className="lg:w-full w-9/12 text-white">
                 <p className="text-2xl font-extrabold bg-clip-text mb-4">
-                  I love to turn ideas into code.
+                  I love to turn ideas into code, on public blockchains.
                 </p>
 
                 <div className="mb-8">
-                  <h5 className="text-2xl text-orange-500">As a founder:</h5>
-                  <p>DeFi / Technical Writer at @Mimo_labs 💶 </p>
-                  <p>Head of Community @Paladin_vote 🛡️</p>
-                  <p>Mentor at @AlyraBlockchain 👨‍🏫</p>
+                  <h5 className="text-2xl text-orange-500 mb-2">
+                    🛠 As a founder:
+                  </h5>
+
+                  <p className="flex">
+                    <Link className="mr-2" href="https://nextory.com/">
+                      <Image
+                        className="rounded-lg mx-auto bg-white mt-2 lg:mt-0"
+                        src="/youboox.jpg"
+                        alt=""
+                        width="100"
+                        height="100"
+                      ></Image>
+                    </Link>
+                    <span className="lg:pt-2">
+                      CTO & Founder - 3M€ raised, Acquired by Nextory{" "}
+                    </span>
+                  </p>
+                  <p className="flex mt-2">
+                    <Link className="mr-2" href="https://nextory.com/">
+                      <Image
+                        className="rounded-lg mx-auto"
+                        src="/corpogames.png"
+                        alt=""
+                        width="100"
+                        height="100"
+                      ></Image>
+                    </Link>
+                    <span className="pt-0">CTO & Founder - 1M€ ARR </span>
+                  </p>
                 </div>
 
                 <div className="mb-8">
                   <h5 className="text-2xl text-orange-500">
-                    As a Web3 Advisor:
+                    🧙‍♂️ As a Web3 Tech Advisor:
                   </h5>
-                  <p>DeFi / Technical Writer at @Mimo_labs 💶 </p>
-                  <p>Head of Community @Paladin_vote 🛡️</p>
-                  <p>Mentor at @AlyraBlockchain 👨‍🏫</p>
+                  <p>
+                    DeFi / Technical advisor @ UpDownStreet : Real Estate
+                    Tokenisation (Hackathon winner){" "}
+                  </p>
+                  <p>Web3 dev @ People4People : kickstarter for Ukraine</p>
+                  <p>
+                    Partner @{" "}
+                    <Link
+                      className="underline"
+                      href="https://whiteloop.capital/en/"
+                    >
+                      WhitelooCapital
+                    </Link>
+                  </p>
                 </div>
 
                 <div className="mb-8">
-                  <h5 className="text-2xl text-orange-500">Side projects:</h5>
-                  <p>DeFi / Technical Writer at @Mimo_labs 💶 </p>
-                  <p>Head of Community @Paladin_vote 🛡️</p>
-                  <p>Mentor at @AlyraBlockchain 👨‍🏫</p>
+                  <h5 className="text-2xl text-orange-500">
+                    👨‍💻 Side projects:
+                  </h5>
+                  <p>
+                    <Link
+                      className="underline"
+                      href="https://github.com/vdaubry/MiniDca"
+                    >
+                      MiniDca
+                    </Link>
+                  </p>
+                  <p>
+                    <Link
+                      className="underline"
+                      href="https://github.com/vdaubry/MiniVesting"
+                    >
+                      MiniVesting
+                    </Link>
+                  </p>
                 </div>
               </div>
             </div>
