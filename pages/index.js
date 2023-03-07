@@ -159,7 +159,7 @@ export default function Home() {
                       className="underline"
                       href="https://whiteloop.capital/en/"
                     >
-                      WhitelooCapital
+                      White Loop Capital
                     </Link>
                   </p>
                 </div>
