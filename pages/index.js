@@ -6,8 +6,14 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Title</title>
-        <meta name="description" content="Description" />
+        <title>vdaubry.eth</title>
+        <meta property="og:title" content="vdaubry.eth" />
+        <meta property="og:description" content="Web3 fullstack builder" />
+        <meta
+          property="og:image"
+          content="https://vdaubry.eth.limo/avatar.jpg"
+        />
+        <meta name="description" content="Web3 fullstack builder" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
@@ -125,7 +131,7 @@ export default function Home() {
                     </span>
                   </p>
                   <p className="flex mt-2">
-                    <Link className="mr-2" href="https://nextory.com/">
+                    <Link className="mr-2" href="https://corporico.fr/">
                       <Image
                         className="rounded-lg mx-auto"
                         src="./corpogames.png"
