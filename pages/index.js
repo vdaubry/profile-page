@@ -20,7 +20,7 @@ export default function Home() {
 
       <div className="bg-gradient-to-r from-blue-500 to-indigo-500 h-max lg:h-screen">
         <div className="pt-16 text-center">
-          <h1 className="text-5xl md:text-7xl text-orange-500 dark:text-white font-extrabold mb-8">
+          <h1 className="text-5xl md:text-7xl text-orange-500 font-extrabold mb-8">
             Gm fren
           </h1>
         </div>
