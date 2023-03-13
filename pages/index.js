@@ -112,7 +112,7 @@ export default function Home() {
                 </p>
 
                 <div className="mb-8">
-                  <h5 className="text-2xl text-orange-500 mb-4">
+                  <h5 className="text-2xl text-orange-500 font-bold mb-4">
                     🛠 As Founder & CTO:
                   </h5>
 
@@ -143,7 +143,7 @@ export default function Home() {
                 </div>
 
                 <div className="mb-8">
-                  <h5 className="text-2xl text-orange-500 mb-2">
+                  <h5 className="text-2xl text-orange-500 font-bold mb-2">
                     🧙‍♂️ As a Web3 Tech Advisor:
                   </h5>
                   <p>
@@ -163,7 +163,7 @@ export default function Home() {
                 </div>
 
                 <div className="mb-8">
-                  <h5 className="text-2xl text-orange-500 mb-2">
+                  <h5 className="text-2xl text-orange-500 font-bold mb-2">
                     👨‍💻 Side projects:
                   </h5>
                   <p>
