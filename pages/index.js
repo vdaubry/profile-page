@@ -182,6 +182,14 @@ export default function Home() {
                       MiniVesting
                     </Link>
                   </p>
+                  <p>
+                    <Link
+                      className="underline"
+                      href="https://github.com/vdaubry/ethlisbon"
+                    >
+                      Slice (Hackathon prize winner)
+                    </Link>
+                  </p>
                 </div>
               </div>
             </div>
