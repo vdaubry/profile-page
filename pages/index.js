@@ -119,9 +119,11 @@ export default function Home() {
             {/* Column 2 */}
             <div className='flex justify-center mt-8 xl:mt-0'>
               <div className='text-white'>
-                <p className='text-center xl:text-left text-2xl w-full font-extrabold bg-clip-text mb-8'>
-                  I love to turn ideas into code, on public blockchains.
-                </p>
+                <div className='px-20 xl:px-0'>
+                  <p className='text-center xl:text-left text-2xl w-full font-extrabold bg-clip-text mb-8'>
+                    I love to turn ideas into code, on public blockchains.
+                  </p>
+                </div>
 
                 <div className='px-8 xl:px-0'>
                   <div className='mb-8'>
